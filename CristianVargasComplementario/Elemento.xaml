@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="CristianVargasComplementario.Elemento">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label x:Name="mensaje"/>
+            <Label x:Name="Nombre"/>
+            <Label Text="Bienevenido al sistema" />
+            <Entry x:Name="txtNombre" Placeholder="Nombre"></Entry>
+            <Entry x:Name="txtApellido" Placeholder="Apellido" ></Entry>
+            <Entry x:Name="txtCurso" Placeholder="Curso" ></Entry>
+            <Entry x:Name="txtParalelo" Placeholder="Paralelo" ></Entry>
+            <Entry x:Name="txtNota" Placeholder="Nota" ></Entry>
+            <Button x:Name="btnActualizar" Text="Actualizar" Clicked="btnActualizar_Clicked"></Button>
+            <Button x:Name="btnEliminar" Text="Eliminar"  Clicked="btnEliminar_Clicked"></Button>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
